@@ -22,7 +22,7 @@ public class QuestionsAnswers {
 		return false;
 	}
 
-	// Gives out a random question from the key set.	
+	// Gives out a random question from the key set.
 	String getRandomQuestion() {
 		// create a set of all the keys in the HashMap
 		questionsSet = questionsAnswers.keySet();
